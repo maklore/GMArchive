@@ -104,7 +104,7 @@ function GMArchiveDispose(_book, _chapter = undefined, _page = undefined, _line 
     return 0;
 }
 
-GMArchiveClose() {
+function GMArchiveClose() {
     static get = __GMArchive();
     var _map_size ds_map_size(get.library);
     if _map_size > 0 {
