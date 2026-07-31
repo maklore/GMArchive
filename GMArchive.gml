@@ -120,6 +120,7 @@ GMArchiveClose() {
     ds_map_destroy(get.library);
 }
 
+//EXAMPLE
 GMArchiveAdd()
     .book("The Tale of Two Brothers")
         .chapter("Wronged")
